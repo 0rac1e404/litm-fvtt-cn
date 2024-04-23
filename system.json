@@ -1,33 +1,6 @@
-{
-	"$schema": "https://json.schemastore.org/foundryvtt-system-manifest.json",
-	"id": "litm",
-	"version": 18,
-	"license": "LICENSE",
-	"title": "Legend in the Mist Demo",
-	"description": "A <strong>Rustic Fantasy</strong> Game for Foundry Virtual Tabletop",
-	"authors": [
-		{
-			"name": "Filip Ambrosius",
-			"discord": "aMediocreDad#2483",
-			"email": "hello@amediocre.dev"
-		}
-	],
-	"esmodules": [
-		"litm.js"
-	],
-	"styles": [
-		"litm.css"
-	],
-	"languages": [
-		{
 			"lang": "en",
 			"name": "English",
 			"path": "lang/en.json"
-		},
-		{
-			"lang": "es",
-			"name": "Spanish",
-			"path": "lang/es.json"
 		},
 		{
 			"lang": "cn",
@@ -36,50 +9,3 @@
 		}
 	],
 	"socket": true,
-	"compatibility": {
-		"minimum": 11,
-		"verified": 12,
-		"maximum": 12
-	},
-	"packs": [
-		{
-			"label": "Tinderbox Demo",
-			"type": "Adventure",
-			"name": "tinderbox-demo",
-			"path": "packs/tinderbox-demo",
-			"system": "litm",
-			"flags": {}
-		}
-	],
-	"flags": {
-		"hotReload": {
-			"extensions": [
-				"css",
-				"html",
-				"js",
-				"json"
-			],
-			"paths": [
-				"styles",
-				"templates",
-				"lang",
-				"litm.css",
-				"litm.js"
-			]
-		}
-	},
-	"relationships": {
-		"recommends": [
-			{
-				"id": "dice-so-nice",
-				"manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
-			}
-		]
-	},
-	"background": "systems/litm/assets/media/litm_splash.webp",
-	"url": "https://github.com/aMediocreDad/litm",
-	"bugs": "https://github.com/aMediocreDad/litm/issues?q=is:issue+is:open+sort:updated-desc",
-	"manifest": "https://raw.githubusercontent.com/aMediocreDad/litm/main/system.json",
-	"download": "https://github.com/aMediocreDad/litm/archive/refs/tags/v18.zip",
-	"readme": "https://github.com/aMediocreDad/litm/blob/main/README.md"
-}
